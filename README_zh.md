@@ -155,6 +155,7 @@ master 分支用于发布稳定版本，dev 分支用于开发，您可以尝试
   [web]
   type = http
   local_port = 80
+  # 没有域名需要将该值设置为ip地址 切记切记
   custom_domains = www.yourdomain.com
   ```
 
